@@ -6,11 +6,14 @@ export const fonts = {
       ios: 'Thabit',
       android: 'Thabit',
     }),
-    bold: Platform.select({
-      ios: 'ThabitBold',
+  },
+  ThabitBold: {
+    regular: Platform.select({
+      ios: 'Thabit-Bold',
       android: 'ThabitBold',
     }),
   },
+
   Winong: {
     regular: Platform.select({
       ios: 'winongextendeddemo',

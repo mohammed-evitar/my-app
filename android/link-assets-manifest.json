@@ -1,0 +1,17 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/Thabit.ttf",
+      "sha1": "4170661bdb704dc925877b9f4ba559cb7a01b751"
+    },
+    {
+      "path": "assets/fonts/ThabitBold.ttf",
+      "sha1": "2757bbfb1b6b3082917f88aa03c7bbe6adc8e22d"
+    },
+    {
+      "path": "assets/fonts/winongextendeddemo.ttf",
+      "sha1": "c01a7e0c9763fa0cd74d0eb84e6b72f3d2a13a5f"
+    }
+  ]
+}

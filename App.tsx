@@ -6,8 +6,13 @@
  */
 
 import React from 'react';
-import {StatusBar} from 'react-native';
+import {StatusBar, LogBox} from 'react-native';
 import LoginScreen from './screens/LoginScreen';
+
+// Enable hot reloading
+if (__DEV__) {
+  LogBox.ignoreLogs(['Warning: ...']); // Ignore specific warnings if needed
+}
 
 function App(): React.JSX.Element {
   return (
