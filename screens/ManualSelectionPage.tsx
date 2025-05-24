@@ -60,7 +60,7 @@ export default function ManualSelectionPage({route}: {route: any}) {
       contentContainerStyle={tw`justify-start`}>
       {/* Back Button */}
       <TouchableOpacity
-        style={tw`mb-4 flex-row items-center`}
+        style={tw`mb-4 flex-row items-center mt-10`}
         onPress={() => navigation.goBack()}>
         <Text
           style={[tw`text-lg text-white`, {fontFamily: fonts.Thabit.regular}]}>
